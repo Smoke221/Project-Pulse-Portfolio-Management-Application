@@ -1,0 +1,22 @@
+{
+  "name": "project-pulse-portfolio-management-application",
+  "version": "1.0.0",
+  "description": "Project Pulse is a powerful and user-friendly web application designed to streamline the process of project and task management for portfolio managers. It serves as a holistic Portfolio Management System, empowering managers to efficiently oversee a collection of projects and associated tasks, ensuring seamless coordination of resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}
