@@ -6,3 +6,26 @@ Project Pulse is a powerful and user-friendly web application designed to stream
 
 #### [Mock UI](https://app.moqups.com/toCtUSWlceueWbNYFBWSnMjTzdI2Dr7C/view/page/ad64222d5?ui=0)
 You can explore the initial frontend section of my application here, where you'll find an opportunity for further enhancement and refinement.
+
+# API Endpoints
+
+## Managers
+
+- `GET /pulse/managers`: Fetches all portfolio managers' profiles.
+- `POST /pulse/managers`: Creates a new portfolio manager profile.
+- `PATCH /pulse/managers/:id`: Updates an existing portfolio manager's profile by ID.
+- `DELETE /pulse/managers/:id`: Deletes a portfolio manager's profile by ID.
+
+## Projects
+
+- `GET /pulse/projects`: Fetches all projects' details.
+- `POST /pulse/projects`: Creates a new project with its details.
+- `PATCH /pulse/projects/:id`: Updates an existing project's details by ID.
+- `DELETE /pulse/projects/:id`: Deletes a project by ID.
+
+## Tasks
+
+- `GET /pulse/tasks`: Fetches all tasks' details.
+- `POST /pulse/tasks`: Creates a new task with its details.
+- `PATCH /pulse/tasks/:id`: Updates an existing task's details by ID.
+- `DELETE /pulse/tasks/:id` : Deletes a task by ID.
