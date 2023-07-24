@@ -1,0 +1,9 @@
+{
+  "name": "John Doe",
+  "email": "johndoe@email.com",
+  "status": true,
+  "role": "Administrator",
+  "bio": "Experienced portfolio manager with a passion for project management.",
+  "startDate": "2022-08-01",
+  "password": "john"
+}
